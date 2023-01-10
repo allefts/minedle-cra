@@ -6,7 +6,7 @@ const config = {
 
 const fetchItems = async () => {
   const res = await axios
-    .get("https://goldfish-app-mbzzy.ondigitalocean.app/minedle2", config)
+    .get("https://goldfish-app-mbzzy.ondigitalocean.app/", config)
     .catch((err) => console.log(err));
   const data = await res.data;
 
